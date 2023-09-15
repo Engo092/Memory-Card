@@ -1,0 +1,57 @@
+.cardGrid {
+    min-height: 60vh;
+    padding: 4rem;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gameCard {
+    appearance: none;
+    border: 2px solid #0a0a0a;
+    height: 275px;
+    width: 220px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    background-color: #0284c7;
+    color: #eff6ff;
+}
+
+.gameCard:hover, .gameCard:focus {
+    cursor: pointer;
+    box-shadow: 0 0 20px yellow;
+}
+
+.gameCard img {
+    flex: 5;
+}
+
+.gameCard span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.gameCard.withPokecard {
+    border: none;
+}
+
+.pokecard {
+    max-height: 275px;
+    min-width: 220px;
+    object-fit: fill;
+}
+
+.instructions {
+    font-weight: bold;
+    color: #082f49;
+}

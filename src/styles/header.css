@@ -1,0 +1,32 @@
+.titleAndScores {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0284c7;
+    color: #eff6ff;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 5px 5px 10px #6bb3dd;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+section.scores {
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+section.scores .currentScore {
+    margin-right: 2rem;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: 400;
+    padding: 1rem;
+}
